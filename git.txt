@@ -1,0 +1,5 @@
+git add .
+git config --global user.email "amy0147258@gmail.com"
+git config --global user.name "N09110015"
+git commit -m "label"
+git push -u origin main
