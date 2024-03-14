@@ -29,7 +29,15 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.Text="已經按了";
+            // button2.Text="已經按了";
+            Form form = new FormButton();
+            form.Show();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

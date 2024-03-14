@@ -1,3 +1,7 @@
+
+git clone 複製連結
+
+
 git add .
 git config --global user.email "amy0147258@gmail.com"
 git config --global user.name "N09110015"
