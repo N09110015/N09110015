@@ -1,6 +1,12 @@
 
+登入github
+<>code 連結複製
+開檔案
+
 git clone 複製連結
 
+資料夾-檢視隱藏的項目
+開git bash
 
 git add .
 git config --global user.email "amy0147258@gmail.com"
