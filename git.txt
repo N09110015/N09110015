@@ -2,7 +2,7 @@
 登入github
 <>code 連結複製
 開檔案
-
+右鍵的GIT BASH HERE
 git clone https://github.com/N09110015/N09110015.git 複製連結
 
 資料夾-檢視隱藏的項目
