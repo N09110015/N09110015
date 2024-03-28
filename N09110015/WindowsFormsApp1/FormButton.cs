@@ -24,5 +24,20 @@ namespace WindowsFormsApp1
            else if (button1.Text =="白癡ㄛ快按回去")
             button1.Text = "欸戳我一下";
         }
+
+
+        private void btmAdd_Click(object sender, EventArgs e)
+        {
+            int count = Int32.Parse(labCount.Text);
+            count = count+1;
+            labCount.Text = count.ToString();
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            int count = Int32.Parse(labCount.Text);
+            count = count-1;
+            labCount.Text = count.ToString();
+        }
     }
 }
