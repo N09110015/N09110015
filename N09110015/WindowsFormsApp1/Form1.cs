@@ -50,5 +50,11 @@ namespace WindowsFormsApp1
             Form form = new FormTextBox();
             form.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new Form87();
+            form.Show();
+        }
     }
 }
