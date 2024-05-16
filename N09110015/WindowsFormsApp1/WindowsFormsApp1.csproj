@@ -64,6 +64,12 @@
     <Compile Include="Form87.Designer.cs">
       <DependentUpon>Form87.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form97.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form97.Designer.cs">
+      <DependentUpon>Form97.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormButton.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form87.resx">
       <DependentUpon>Form87.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form97.resx">
+      <DependentUpon>Form97.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormButton.resx">
       <DependentUpon>FormButton.cs</DependentUpon>

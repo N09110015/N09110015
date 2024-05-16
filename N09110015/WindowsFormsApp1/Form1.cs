@@ -67,5 +67,11 @@ namespace WindowsFormsApp1
             Form form = new Form70();
             form.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form form = new Form97();
+            form.Show();
+        }
     }
 }

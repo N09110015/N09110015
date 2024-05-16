@@ -186,6 +186,7 @@
             this.button7.TabIndex = 12;
             this.button7.Text = "終極密碼";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
