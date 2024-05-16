@@ -39,6 +39,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +84,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("新細明體", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button1.Location = new System.Drawing.Point(61, 126);
+            this.button1.Location = new System.Drawing.Point(57, 92);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(225, 135);
             this.button1.TabIndex = 3;
@@ -95,7 +97,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("細明體-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.checkBox1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.checkBox1.Location = new System.Drawing.Point(361, 140);
+            this.checkBox1.Location = new System.Drawing.Point(217, 243);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(65, 25);
             this.checkBox1.TabIndex = 4;
@@ -106,7 +108,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("細明體-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.checkBox2.Location = new System.Drawing.Point(361, 202);
+            this.checkBox2.Location = new System.Drawing.Point(217, 305);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(65, 25);
             this.checkBox2.TabIndex = 5;
@@ -117,7 +119,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("細明體-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.checkBox3.Location = new System.Drawing.Point(361, 171);
+            this.checkBox3.Location = new System.Drawing.Point(217, 274);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(65, 25);
             this.checkBox3.TabIndex = 6;
@@ -129,7 +131,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.IndianRed;
             this.button2.Font = new System.Drawing.Font("新細明體", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.button2.Location = new System.Drawing.Point(537, 126);
+            this.button2.Location = new System.Drawing.Point(305, 107);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(205, 111);
             this.button2.TabIndex = 7;
@@ -139,7 +141,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(549, 243);
+            this.button3.Location = new System.Drawing.Point(314, 243);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(181, 56);
             this.button3.TabIndex = 8;
@@ -148,7 +150,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(549, 319);
+            this.button4.Location = new System.Drawing.Point(57, 243);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(144, 91);
             this.button4.TabIndex = 9;
@@ -158,7 +160,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(182, 320);
+            this.button5.Location = new System.Drawing.Point(57, 345);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(161, 79);
             this.button5.TabIndex = 10;
@@ -166,11 +168,32 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(553, 144);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(134, 110);
+            this.button6.TabIndex = 11;
+            this.button6.Text = "計時";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(528, 320);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(159, 103);
+            this.button7.TabIndex = 12;
+            this.button7.Text = "終極密碼";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -203,6 +226,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }
 

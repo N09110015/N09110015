@@ -49,7 +49,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(157, 82);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(282, 30);
             this.textBox1.TabIndex = 1;
@@ -57,7 +57,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(200, 144);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(178, 68);
             this.button1.TabIndex = 2;
@@ -98,7 +98,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form87";
             this.Text = "Form87";
             this.ResumeLayout(false);

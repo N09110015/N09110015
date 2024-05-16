@@ -17,13 +17,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form from = new FormTextBox();
-            from.Show();
-
-
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
